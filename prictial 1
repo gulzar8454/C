@@ -1,0 +1,15 @@
+#include <stdio.h>
+void main() {
+int a;
+int b;
+int c; 
+int D;
+printf("enter your first value \n");
+scanf ("%d" ,&a);
+printf("enter your second value\n");
+scanf("%d" ,&b);
+printf("enter your third value\n");
+scanf("%d",&c);
+D=a-b+c;
+printf("%d",D);
+}
